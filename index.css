@@ -9,6 +9,7 @@
 }
 html{
          scroll-behavior: smooth;
+         transition: all 3s ease-out;
 }
 
 .hide{
@@ -105,6 +106,10 @@ html{
           margin: 10px 0px;
           text-align: center;
         
+}
+li a{
+         text-decoration: none;
+         color: black;
 }
 .nav li:hover{
                  font-size: 1.8rem;
@@ -234,6 +239,10 @@ h1 , p {
          border-radius: 50px;
 
 }
+.container2 button a{
+         text-decoration: none;
+         color: black;
+}
 .container2 button:hover{
          cursor: pointer;
          background-color:rgb(221, 221, 221);
@@ -271,12 +280,18 @@ align-items: center;
        font-size: 1rem;
        color: white;
        border-radius: 10px;
-       
+             
+}
+.feature button a{
+         text-decoration: none;
+         color: white;
+         font-family: 'Varela Round', sans-serif;
 }
 .red button{
        background-color: red;
        border: 1px solid red; 
 }
+
 .green button{
         
        background-color: green;
@@ -286,6 +301,7 @@ align-items: center;
         background-color: blue;
         border: 1px solid blue;
 }
+
 .red button:hover{
        background-color: rgb(245, 43, 43);
        cursor: pointer;
@@ -328,6 +344,10 @@ align-items: center;
        color: black;
        border-radius: 10px;
        border: 1px solid black;        
+}
+.feature2 button a{
+         text-decoration: none;
+         color: black;
 }
 .feature2 button:hover{
         background-color:rgb(226, 223, 223);
