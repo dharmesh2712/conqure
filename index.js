@@ -1,3 +1,9 @@
+window.onload = function() {
+	if(!window.location.hash) {
+		window.location = window.location + '#loaded';
+		window.location.reload();
+	}
+}
 burger = document.querySelector('.burger')
 nav = document.querySelector('.nav')
 nav_left  = document.querySelector('.nav_left')
